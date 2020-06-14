@@ -3,7 +3,7 @@ import { Repository, EntityRepository } from 'typeorm'
 import Appointment from '../models/Appointment'
 
 interface CreateAppointmentDTO {
-  provider: string
+  provider_id: string
   date: Date
 }
 
